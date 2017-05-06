@@ -1,0 +1,333 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles WSP color white */
+
+html,
+body{
+  height: 100%;
+
+    color: #000000;
+    font-family: "Open Sans", arial, sans-serif;
+
+}
+
+body {
+    background-color: white;
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+p{
+    font-size: 18px;
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+   height: 100%;
+
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain ;
+    background-repeat:no-repeat;
+    background-color: black;
+}
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+
+  background: black;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.navbar-inverse {
+    background-color: #080808;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgb(48, 58, 68);
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgb(36, 46, 56);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #5e625f;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #7c796c;
+}
+
+.navbar-brand{
+  position: relative;
+  bottom: 7px;
+}
+
+
+
+i.fa:hover{
+  color: black;
+
+
+}
+.black{
+  color:black;
+}
+.black-sm{
+  color:black;
+
+}
+h3:hover{
+  color:black;
+}
+.lg-icons:before {
+    content: "\f06e";
+    display: inline-block;
+    font-size: 75px;
+    padding: 30px;
+
+
+}
+
+
+.fa-stack-2x {
+    font-size: 1em !important;
+    padding: 10px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+.main-panel{
+background-color: white;
+border-color: white;
+}
+.panel-default>.panel-heading{
+  background-color: white;
+  border-color: white;
+}
+
+.panel-heading{
+  border-color: black;
+}
+.green-button{
+  background-color: #6f8f91;
+  border-color: #6f8f91;
+  color: black;
+}
+
+.circle-i{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  background-color: #E0DEE3;
+    padding: 25px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+small{
+  color: rgb(156, 156, 156);
+
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.home-header{
+  color: #bbaa87;
+}
+
+.inputdemoIcons {
+  /*
+.right-icon {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  left: auto;
+  margin-top: 0;
+}
+*/ }
+  .inputdemoIcons .inputIconDemo {
+    min-height: 48px; }
+  .inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.email {
+    color: green; }
+  .inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.name {
+    color: dodgerblue; }
+  .inputdemoIcons md-input-container.md-input-invalid > md-icon.email,
+  .inputdemoIcons md-input-container.md-input-invalid > md-icon.name {
+    color: red; }
+
+
+
+
+
+
+    .buttondemoBasicUsage section {
+      background: #f7f7f7;
+      border-radius: 3px;
+      text-align: center;
+      margin: 1em;
+      position: relative !important;
+      padding-bottom: 10px; }
+
+    .buttondemoBasicUsage md-content {
+      margin-right: 7px; }
+
+    .buttondemoBasicUsage section .md-button {
+      margin-top: 16px;
+      margin-bottom: 16px; }
+
+    .buttondemoBasicUsage .label {
+      position: absolute;
+      bottom: 5px;
+      left: 7px;
+      font-size: 14px;
+      opacity: 0.54; }
+
+
+
+      .contact-p{
+        font-size: 16px;
+      }
+
+.contact-adress{
+  font-size: 14px;
+}
+
+.header-bg{
+  width: 100%;
+  height: auto;
+  background: url('https://c1.staticflickr.com/5/4174/34337330681_1da630c104_o.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+ .wsp-header-left p {
+   position: relative;
+   float:right;
+   color: white;
+   padding: 20px;
+  font-family:sans-serif;
+
+  margin: 16px;
+  background-color:rgba(0,0,0,0.8);
+  border: 1px solid black;
+
+
+}
+
+
+
+input{
+  position: relative;
+  font-size: 10px;
+
+}
+li{
+  list-style: none;
+}
+
+ .wsp-header-right{
+  position: relative;
+  float:left;
+width: 100%;
+  margin:10px;
+  padding: 20px;
+  font-family:sans-serif;
+
+  margin: 16px;
+  background: #f3f3f3;
+  border: 1px solid grey;
+
+
+}
+
+.col-lg-6 {
+    width: 48% !important;
+}
+
+.btn-default{
+      background-color: #fddf4a;
+}
