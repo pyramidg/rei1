@@ -331,3 +331,33 @@ width: 100%;
 .btn-default{
       background-color: #fddf4a;
 }
+
+.form2{
+    background: #f3f3f3;
+}
+
+.btn-primary {
+    width: 100%;
+    color: #000;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.btn-primary:hover {
+  width: 100%;
+  color: #000;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000;
+}
+
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #000000 !important;
+    background-color: #fff !important;
+    border-color: #cccccc !important;
+}
