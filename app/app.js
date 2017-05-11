@@ -18,9 +18,9 @@ app.use(require('./routes/speakers'));
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/chat'));
-app.use(require('./routes/contact'));
-app.use(require('./routes/services'));
-app.use(require('./routes/about'));
+app.use(require('./routes/get-cash-offer'));
+app.use(require('./routes/how-it-works'));
+app.use(require('./routes/questions'));
 app.use(require('./routes/portfolio'));
 
 

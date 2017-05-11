@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/contact', function(req, res) {
+router.get('/how-it-works', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageSpeakers = data.speakers;
@@ -10,8 +10,8 @@ router.get('/contact', function(req, res) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
 
-  res.render('contact', {
-    pageTitle: 'Contact',
+  res.render('how-it-works', {
+    pageTitle: 'Services',
     artwork: pagePhotos,
     speakers: pageSpeakers,
     pageID: 'speakerList'
@@ -30,15 +30,12 @@ router.get('/speakers/:speakerid', function(req, res) {
     }
   });
 
-  res.render('contact', {
-    pageTitle: 'Contact Info',
+  res.render('how-it-works', {
+    pageTitle: 'How it Works',
     artwork: pagePhotos,
     speakers: pageSpeakers,
     pageID: 'speakerDetail'
   });
 });
-
-
-
 
 module.exports = router;

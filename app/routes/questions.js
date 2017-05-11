@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/about', function(req, res) {
+router.get('/questions', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageSpeakers = data.speakers;
@@ -10,7 +10,7 @@ router.get('/about', function(req, res) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
 
-  res.render('about', {
+  res.render('questions', {
     pageTitle: 'About',
     artwork: pagePhotos,
     speakers: pageSpeakers,
