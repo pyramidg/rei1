@@ -4,7 +4,7 @@ var app = express();
 var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
-app.set('port', process.env.PORT || 3001 );
+app.set('port', process.env.PORT || 3008 );
 app.set('appData', dataFile);
 app.set('view engine', 'ejs');
 app.set('views', 'app/views');
