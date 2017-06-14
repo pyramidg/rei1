@@ -10,7 +10,7 @@ Interested in building JavaScript websites that do more? Node.js and Express.js 
 - Creating an API route
 - Dealing with POST and DELETE requests
 - Creating live chat features with Socket.IO
-
+- AND MORE!
 
 1. Make sure you have these installed
 	- [node.js](http://nodejs.org/)
